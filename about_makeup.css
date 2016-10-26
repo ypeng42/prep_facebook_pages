@@ -1,6 +1,4 @@
-/* div,footer { */
-	/* border: 1px solid black; */
-/* } */
+
 
 a {
 	text-decoration: none;
@@ -14,14 +12,116 @@ ul li {
 header {
 	background: #3b5998;
 	color: #fff;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 30px;
+}
+
+body {
+	background: #e9eaed;
+}
+
+#fb-header {
+	background: url("fb_icon.png") 5px 4px no-repeat;
+	float: left;
+	margin-left: 150px;
+	padding-left: 40px;
+}
+
+#friend-search {
+	float: left;
+	margin-left: 50px;
+	width: 400px;
+	height: 24px;
+	border-radius: 3px;
+}
+
+#user-name-header {
+	float: right;
+	margin-right: 150px;
+	font-size: 23px;
+	margin-top: 5px;
+}
+
+/* #nav-wrapper, #top-part, #nav-bar { */
+	/* border: 1px solid black; */
+/* } */
+
+#nav-wrapper {
+	margin-left: 200px;
+	width: 1200px;
+	height: 300px;
+	border: 1px solid #e9eaed;
+	border-top: none;
+}
+
+#top-part {
+	width: 100%;
+	height: 89%;
+	background: #1d2129; 
+}
+
+#name {
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	top: 275px;
+	left: 400px;
+}
+
+#nav-bar {
+	width: 100%;
+}
+
+#nav-bar {
+	background: #fff;
+}
+
+#nav-bar ul {
+	margin-left: 190px;
+}
+
+#nav-bar ul li {
+	display: inline-block;
+	padding: 7px 10px;
+	border-right: 1px solid #e9eaed;
+	margin-left: -4px;
+}
+
+#nav-bar ul li:hover {
+	background: #c9eaed;
+}
+
+#nav-bar a {
+	color:#365899;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	margin: 0 20px;
+}
+
+#user-img a {
+	display: block;
+	padding: 5px;
+	background: #fff;
+}
+
+#user-img img {
+	width: 130px;
+	height: 130px;
+}
+
+#user-img {
+	border: 1.5px solid #e9eaed;
+	width: 142px;
+	margin-left: 220px;
+	margin-top: -160px;
 }
 
 
-.small-fb-icon {
-	background: url("fb_icon.png") no-repeat;
-	width: 200px;
-	height: 200px;
-}
+
 
 /*######### Below are for login page #########*/
 
@@ -92,50 +192,6 @@ header {
 
 }
 
-#info {
-	float: left;
-	padding: 50px 200px 0 350px; 
-	font-size: 40px;
-}
-
-#info li {
-	font-size: 25px;
-	line-height: 2;
-}
-
-#sign-up-form {
-	float:right;
-	height: 80%;
-	margin-right: 300px;
-	font-size: 25px;
-}
-
-#sign-up-form div {
-	margin: 15px 10px;
-}
-
-#sign-up-form .no-mar-left {
-	margin-left: 0; /*Q: why it's not working*/
-}
-
-.signup-btn {
-	width: 172px;
-	height: 37px;
-	border-radius: 5px;
-	border-color: #bdc7d8;
-	padding: 7px 20px;
-	font-size: 18px;
-	background: #69a74e;
-	color: #fff;
-	
-	border: 1px solid #3b6e22;
-}
-
-.sel3{
-	width: 78px;
-	height: 30px;
-	padding: 5px 9px;
-}
 
 .clear {
 	clear: both;
